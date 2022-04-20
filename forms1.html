@@ -10,23 +10,58 @@
 
 
 <body>
-        <h1>First Form</h1>
+    <Section>
+    <!--Section heading-->
+        <h1>Enter To Win A Hot Dog On A Stick</h1>
 
-            <form action="/Mellya"></form>
-<!--Creating text box for Username-->
+            <form action="/Mellya">
+<!--This is the username label, username textbox has attributes of a placeholder, ID and name-->
                 <p>
                     <label for="username">Enter A Name:</label>
                     <input id="username" type="text" placeholder="Mellya" name="username">
 
-
                 </p>
-<!--Creating Passsword-->
+<!--This is the Passsword label, password textbox has attributes of a placeholder, ID and name-->
                 <p>
-                    <label for="password">Enter A Name:</label>
-                    <input id="password" type="text" placeholder="MellyaPassword" name="password">
-
+                    <label for="password">Enter A DOB:</label>
+                    <input id="password" type="text" placeholder="12.3.45" name="password">
 
                 </p>
+<!--Created a button to submit the form-->
+                <input type="Submit">
 
+            </form>
+   </Section>
+
+   <Section>
+        <h1>Query Strings</h1>
+        <!--Created a form to push information to the reddit search results -->
+            <form action="https://www.reddit.com/search/">
+
+                <input type="text" name="q">
+                <button>Search Reddit</button>
+
+            </form>
+<br>
+        <!--Created a form to push info to youtubes search results -->
+            <form action="https://www.youtube.com/results?search_query=">
+
+                <input type="text" name="q">
+                <button>Search Youtube</button>
+
+            </form>
+<br>
+        <!--Created a form to push info to googles search results-->
+            <form action="https://www.google.com/search">
+
+                <input type="text" name="q">
+                <button>Search Google</button>
+
+            </form>
+
+
+   </Section>
+
+   
 </body>
 </html>
