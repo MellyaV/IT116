@@ -1,0 +1,60 @@
+h1 {
+
+    color: forestgreen;
+    text-align: center;
+    font-weight: 400;
+    font-size: 125px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: burlywood underline;
+
+}
+
+p {
+    line-height: 1.5;
+    letter-spacing: 0.25ex;
+    color: olive;
+    text-align: center;
+    font-weight: 200;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+
+    color: burlywood;
+    text-align: center;
+    font-family: 400;
+    font-size: 35px;
+    text-decoration: forestgreen underline;
+
+}
+
+h3 {
+
+    color: burlywood;
+    text-align: center;
+    font-family: 400;
+    font-size: 35px;
+    text-decoration: forestgreen underline;
+
+}
+
+h4 {
+
+    color: burlywood;
+    text-align: center;
+    font-family: 400;
+    font-size: 35px;
+    text-decoration: forestgreen underline;
+
+}
+
+h5 {
+
+    color: burlywood;
+    text-align: center;
+    font-family: 400;
+    font-size: 35px;
+    text-decoration: forestgreen underline;
+
+}
