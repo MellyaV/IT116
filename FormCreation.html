@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please fill out this form below</h1>
+
+<!--This section validates that the end user is complying with our required attributes and is selecting their food accomodations-->
+<section>
+    <form action="/bubbles">
+
+        <!-- Here's a textbox to require the end user to input their first name and meet the min & max length credential-->
+        <p>
+         <label for="Mellya">First Name</label>
+         <input type="text" name="First Name" id="Mellya" placeholder="Lebron" minlength="5" maxlength="12" required>
+        </p>
+
+        <!-- Built in another textbox to require the end user to input their last name and meet the min & max length credential-->
+        <p>
+        <label for="password">Last Name</label>
+        <input type="text" name="password" id="Last Name" placeholder="James" minlength="5" maxlength="12" required>
+        </p>
+
+        <!--This block element is for a combo box-->
+        <p>
+            <label for="food">Which food would you like to eat</label>
+                <!--Attributes of food accomodations -->
+                <select name="food" id="food">
+                    
+                    <option value="Red">Chicken</option>
+
+                    <option value="Blue">Tofu</option>
+
+                    <option value="Green">Fish</option>
+                </select>
+        </p>
+
+        <!--This is a block element for a text area-->
+        <p>
+         <!--The end user will have the opportunity to address any dietary restrictions/allergies below-->
+         <label for="allergies">Do you have any allergies?</label>
+
+         <textarea id="allergies" name="TextArea" rows="5" cols="15" placeholder="Type Here!"></textarea>
+        </p>
+
+        <!--Here's a button to submit the form-->
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+
+
+</body>
+</html>
