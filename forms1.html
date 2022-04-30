@@ -115,24 +115,24 @@
    </Section>
 
 <hr>
-<!---->
+<!--Error checking a control to validate that the end user is complying with the required attributes -->
 <section>
-    <form action="/bananas">
+    <form action="/wegood">
 
-        <!--  -->
-        <label for="monte">TextBox</label>
-        <input type="text" name="textBox" id="monte" required>
+        <!-- Everything sent in this form will go to wegood and this first label is required by the end user -->
+        <label for="Mellya">TextBox</label>
+        <input type="text" name="TextBox" id="Mellya" required>
 
-        <!--  -->
+        <!-- Built in another textbox to test out the min and max length attribute -->
         <p>
-        <label for="password"></label>
-        <input type="text" name="pword" id="password" minlength="5" maxlength="10">
+        <label for="password">Password</label>
+        <input type="text" name="password" id="password" minlength="5" maxlength="10">
         </p>
-        <!--  -->
+        <!-- This element appears as a textbox but has specific validation paramiters to meet the email structure -->
         <p>
             <input type="email" required>
         </p>
-
+        <!--Button to submit form -->
         <button type="submit">Validation Button</button>
 
     </form>
