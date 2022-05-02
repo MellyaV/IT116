@@ -1,0 +1,45 @@
+/* Example of a Universal Selector */
+/* *{
+
+    color: pink;
+    background-color: green;
+
+} */
+
+/* Example of a Element Selector */
+body {
+
+    background-color: beige;
+}
+/* Element selector on button font sixe */
+button {
+
+    font-size: 30px;
+}
+/* Example of Multiple selector, here we grouped the h1 & h2 element */
+h1, h2 {
+
+    color: rgb(98, 53, 11);
+}
+/* Example of ID Selector, this allows us to style specific elements on our HTML page*/
+#signup {
+
+    background-color: pink;
+    color: rgb(98, 82, 52);
+
+}
+/* Example of a Class Selector */
+.tag{
+
+    color:rgb(102, 200, 212);
+}
+/*  */
+.post a {
+
+    color: palevioletred;
+}
+/*  */
+footer > a {
+
+    color: rgb(159, 135, 99);
+}
