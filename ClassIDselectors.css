@@ -1,0 +1,28 @@
+#yes {
+    background-color: green;
+    color: white;
+}
+
+#no {
+    background-color: red;
+    color: white;
+}
+
+.crimson {
+    color: crimson;
+}
+
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: rgb(193, 193, 75);
+}
