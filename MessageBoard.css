@@ -43,3 +43,24 @@ footer > a {
 
     color: rgb(98, 82, 52);
 }
+/* */
+a[href*="Google"] {
+
+    color: greenyellow;
+}
+/*Pseudo class*/
+button:hover {
+
+    background-color: rgb(102, 200, 212);
+    color: palevioletred;
+}
+/*Nested psuedo class*/
+.post button:active{
+
+    background-color: goldenrod;
+}
+/*psuedo element*/
+h2: ::first-letter{
+
+    font-size: 50px;
+}
