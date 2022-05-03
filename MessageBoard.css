@@ -33,20 +33,20 @@ h1, h2 {
 
     color:rgb(102, 200, 212);
 }
-/*  */
+/* descendant selector */
 .post a {
 
     color: palevioletred;
 }
-/*  */
+/* descendant */
 footer > a {
 
     color: rgb(98, 82, 52);
 }
-/* */
-a[href*="Google"] {
+/*class selector*/
+a[href*="google"] {
 
-    color: greenyellow;
+    color: rgb(98, 53, 11);
 }
 /*Pseudo class*/
 button:hover {
@@ -60,7 +60,12 @@ button:hover {
     background-color: goldenrod;
 }
 /*psuedo element*/
-h2: ::first-letter{
+h2::first-letter{
 
     font-size: 50px;
+}
+/*psuedo element*/
+p::first-line {
+
+    color: rgb(102, 200, 212);
 }
