@@ -1,28 +1,30 @@
+/*Here's an ID selector, it changeed the background color of my button to green and the text color to white*/
 #yes {
     background-color: green;
     color: white;
 }
-
+/*Here's an ID selector, it changeed the background color of my button to red and the text color to white*/
 #no {
     background-color: red;
     color: white;
 }
-
+/*Here's a class selector, it changed the text color to crimson*/
 .crimson {
     color: crimson;
 }
-
+/*Here's a class selector, it changed the text color to green*/
 .green {
     color: green;
 }
+/*Here's a class selector, it changed the text color to red*/
 .red {
     color: red;
 }
-
+/*Here's a class selector, it changed the text color to orange*/
 .orange {
     color: orange;
 }
-
+/*Here's a class selector, it changed the text color to a shade of yellow*/
 .yellow {
     color: rgb(193, 193, 75);
 }
