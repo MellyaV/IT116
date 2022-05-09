@@ -28,43 +28,43 @@ h1, h2 {
     color: rgb(98, 82, 52);
 
 }
-/* Example of a Class Selector */
+/* Example of a Class Selector changing the text color to a light blue */
 .tag{
 
     color:rgb(102, 200, 212);
 }
-/* descendant selector */
+/* A class tag that changed the hyperlink text color to pink */
 .post a {
 
     color: palevioletred;
 }
-/* descendant */
+/* Descendant Selector that changed the hyperlink to brown*/
 footer > a {
 
     color: rgb(98, 82, 52);
 }
-/*class selector*/
+/*Class Selector that changed a specific hyperlink text color to brown*/
 a[href*="google"] {
 
     color: rgb(98, 53, 11);
 }
-/*Pseudo class*/
+/*Here's an example of a Pseudo class*/
 button:hover {
 
     background-color: rgb(102, 200, 212);
     color: palevioletred;
 }
-/*Nested psuedo class*/
+/*Here's am example of a Nested Psuedo Class*/
 .post button:active{
 
-    background-color: goldenrod;
+    background-color: blue;
 }
-/*psuedo element*/
+/*Here's a Psuedo Element*/
 h2::first-letter{
 
     font-size: 50px;
 }
-/*psuedo element*/
+/*Here's a Psuedo Element*/
 p::first-line {
 
     color: rgb(102, 200, 212);
