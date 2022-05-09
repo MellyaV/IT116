@@ -1,0 +1,14 @@
+/*Here's a descendant selector for the header*/
+Header > a {
+    font-size: 30px;
+    color: palevioletred;
+}
+/*Here's a descendant selector that changed the text color to dark blue to rep the sports teams*/
+body > #Blue > a{
+    color: darkblue;
+}
+/*Here's a descendant selector that changed the hyerlink tags to a light blue*/
+body > #schools > a {
+    color: rgb(102, 200, 212);
+}
+
