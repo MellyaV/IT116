@@ -15,12 +15,57 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light"> 
        
         <div class="container-fluid">
-           
+           <!--Branding-->
             <a class="navbar-brand" href="https://www.nytimes.com">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSS_lUTWPtE_ceI02VhmunPN5tpz5V56X0eQ&usqp=CAU" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                Flava Flav
+                <img src="https://i.scdn.co/image/ab67616d00001e0249d694203245f241a1bcaa72" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Un Verano Sin Ti
             </a>
-            
+            <!--This is a hamburger menu with a nav-bar toggler class to be able to collapse the menu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar1">
+                <!--Pushing our margin to the right side of the screen, margin-in auto-->
+                <ul class="navbar-nav d-flex me-auto">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=p38WgakuYDo">Moscow Mule</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=QpKkNIT84GY">Tití Me Preguntó </a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=10EX-_h4pYc">Ojitos Lindos</a>
+                    </li>
+                    <!--Class reference?-->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" >More</a>
+                           
+                            <ul class="dropdown-menu">
+                                <a href="https://www.youtube.com/watch?v=xn21hH7kyx8" class="dropdown-item">Me Porto Bonito</a>
+
+                                <a href="https://www.youtube.com/watch?v=a5rlgE6dcBY" class="dropdown-item">Después De La Playa</a>
+
+                                <a href="https://www.youtube.com/watch?v=7K7Sl0FPsVo" class="dropdown-item">Me Fui De Vacaciones</a>
+
+                                <a href="https://www.youtube.com/watch?v=G9XrXnfJPsk" class="dropdown-item">Party</a>
+                            </ul>
+                    </li>
+                </ul>
+                <!--This is for alignment on objects inside of the container-->
+                <form class="d-flex" action="/testing">
+                    
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+
+                </form>
+
+            </div>
+
            
         </div>
     </nav>
