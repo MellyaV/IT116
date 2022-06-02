@@ -1,53 +1,76 @@
+//How we look at the full HTML document
 //console.dir(document);
+
 //We're running through the tree. We're accessing the dom through document.___ attribute
 //console.log(document.domain);
-//
+
+//Accessing the URL through the console on the HTML page
 //console.log(document.URL);
-//
+
+//Accessing the Title element through the DOM on the HTML page, running throught the tree
 //console.log(document.title);
-//
+
+//Checking the doctype through the DOM, doctype = HTML
 //console.log(document.doctype);
-//
+
+//Running through the tree to access everything in the header element
 //console.log(document.head);
-//
+
+//Running through the tree to access everything in the body tag on the HTML page
 //console.log(document.body);
-//Listed out the entire document on the console
+
+//Listed out the entire document on the console, we're seeing the entire DOM
 //console.log(document.all);
-//entered the entire document and passed onto a particualr index
+
+//entered the entire document and then passed onto a particualr tree element being the title
 //console.log(document.all[10]);
-//
+
+//We just changed the text content for the specific object by stepping into the index number
 //document.all[10].textContent = "Item Lister";
 
-//
+//Here we checked to see certain elements in the tree
+//Here we checked how many forms we had in the DOM, we only have 1
 //console.log(document.forms);
+
+//We checked to see if we have any links
 //console.log(document.links);
+
+//We checked to see if we have any images
 //console.log(document.images);
 
 //////////////////////////////////////////////////////////////
 //accessing the DOM with GETELEMENTBYID
 
+//Here we accessed the header title with .getElementById
 //console.log(document.getElementById('header-title'));
 
-// Creaton of an object variable using the document function.
+// created the object variable using the document function
 //let headertitle = document.getElementById('header-title')
 
-//
+//used the .textcontent and .innertext sub functions to change the header of our created object
 //headertitle.textcontent = "I'm Changing the Header";
 //headertitle.innerText = "I'm Changing it Again"
 
+//changed the text color to hot pink
 //headertitle.style.color = 'hotpink';
 
 ////////////////////////////////////////////////////////////////
 //GETELEMENTBYCLASSNAME
 
+//Created the object to be passed in the console
 //var items = document.getElementsByClassName('list-group-item');
 
+//listed out every particular item
 //console.log(items);
+
+//went through the index of items to access the index of 1
 //console.log(items[1])
 
-//Styling proerty attributes through the variable
+//Changed the content of the item in the listed group
+//item[1].textContent = 'Hello 2';
 
-//tems[1].style.fontWeight = 'bold';
+//Here are styling property attributes being used on the index of 0-2 of the listed items
+//items[1].style.fontWeight = 'bold';
 //items[1].style.backgroundColor = 'pink';
 //items[1].textContent = 'Porto';
 //items[1].style.color = 'brown';
