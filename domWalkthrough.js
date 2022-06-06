@@ -137,23 +137,42 @@
 //}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-//Query Selector
+//QuerySelector
 
-var header = document.querySelector('#main-header');
-header.style.borderBottom = 'solid 4x hotpink';
+//var header = document.querySelector('#main-header');
+//header.style.borderBottom = 'solid 4x hotpink';
 
 
-var input = document.querySelector('input');
-input.value = 'Changed the input box text';
+//var input = document.querySelector('input');
+//input.value = 'Changed the input box text';
 
 //Declared the variable and used the document.queryselector to return?
-var submit = document.querySelector("input[type='submit']")
-submit.value = "SEND";
+//var submit = document.querySelector("input[type='submit']")
+//submit.value = "SEND";
 
 //
-var item = document.querySelector(".list-group-item");
-item.style.color = 'red';
+//var item = document.querySelector(".list-group-item");
+//item.style.color = 'red';
+
+//We're calling the last item of the list group items through the last-child element
+//var lastitem = document.querySelector('.list-group-item:last-child');
+//lastitem.style.color = 'blue'
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//QuerySelectorAll
 
 //
-var lastitem = document.querySelector('.list-group-item:last-child');
-lastitem.style.color = 'blue'
+var titles = document.querySelectorAll('.title');
+console.log(titles);
+titles[0].textContent = 'Hello Mellya'
+
+//
+var odd = document.querySelectorAll('li:nth-child(odd)');
+var even = document.querySelectorAll('li:nth-child(even)');
+
+//
+for (var i=0; i<odd.length; i++) {
+    odd[i].style.backgroundColor = 'pink';
+    even[i].style.backgroundColor = 'lightblue';
+    even[i].style.color = 'black'
+}
