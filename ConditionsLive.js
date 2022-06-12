@@ -1,40 +1,54 @@
 console.log ("Hello World");
 
-
+// A function that generates a random number
 let randomNumber = Math.random();
 
 console.log(randomNumber);
 
 //if (randomNumber < 0.5) {
-//
+//If our random number is less than .5, the condition will generate "Hello Mellya"
 //    console.log("Hello Mellya");
+
+//If our condition meets, a random number will generate in the console
 //    console.log(randomNumberm);
 //}
 
-
+//Relational operators inside conditional if statements
 //if (randomNumber >= 0.5) {
-//
+
+//If our random number is less greater than or equal to .5 , the conditon will generate "randomNumber is greater than 0.5"
 //    console.log("randomNumber is greater than 0.5");
+
+// if our condition meets, a randomNumber will generate
 //    console.log(randomNumber);
 //}
 
 //////////////////////////////////////////////////////////////////////
 //if else statement 
 
+//Relational operators inside conditional if statements
 //const dayOfWeek = 'Monday';
 
+//If our condition is the day of the week equals Monday
 //if (dayOfWeek === 'Monday') {
 
+//If our condition is met, the message "This is Monday" will generate in the console
 //    console.log('This is Monday');
 
+//We produced a new block condition that will run if the first block condition is not met.
 //} else if (dayOfWeek === 'Thursday') {
 
+//If this condition is met the message "This is Thursday" will be generated
  //   console.log("This is Thursday");
 
+ //We produced a new block condition that will run if the first & second block conditions are not met.
 //} else if (dayOfWeek ===  'Saturday') {
 
+//If this condition is met the message "Hooray, today is Saturday" will be generated
 //    console.log("Hooray, today is Saturday");
 //}
+
+
 
 //const age = prompt('Enter An Age To Drive')
 
