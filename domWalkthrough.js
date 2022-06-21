@@ -124,7 +124,7 @@
 //console.log(li);
 //console.log(li[1]);
 
-//
+//Using getElementByTagName to change style attributes through DOM
 //li[1].textContent = 'Hello 2'
 //li[1].style.fontWeight = 'bold';
 //li[1].style.backgroundColor = 'lavender';
@@ -146,11 +146,11 @@
 //var input = document.querySelector('input');
 //input.value = 'Changed the input box text';
 
-//Declared the variable and used the document.queryselector to return?
+//Declared the variable and used the document.queryselector to return the submit value send
 //var submit = document.querySelector("input[type='submit']")
 //submit.value = "SEND";
 
-//
+//changing list items to red
 //var item = document.querySelector(".list-group-item");
 //item.style.color = 'red';
 
@@ -161,16 +161,18 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 //QuerySelectorAll
 
-//
+// Created a variable called 'title' then called teh document function and passed in the class name
 var titles = document.querySelectorAll('.title');
+//Checking to see if the variable works by looking through the DOM
 console.log(titles);
+//Calling the index of zero to change the text content from add items to Hello Mellya
 titles[0].textContent = 'Hello Mellya'
 
-//
+// Created variables to know the odd and even numbers of our list. We used li:nth child to call out the odd and even numbers of our list.
 var odd = document.querySelectorAll('li:nth-child(odd)');
 var even = document.querySelectorAll('li:nth-child(even)');
 
-//
+// Here's a for loop where we passed the variables we created in the for loop header to  change the color properties of our odd and even numbers
 for (var i=0; i<odd.length; i++) {
     odd[i].style.backgroundColor = 'pink';
     even[i].style.backgroundColor = 'lightblue';
